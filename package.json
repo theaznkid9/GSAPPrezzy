@@ -6,6 +6,7 @@
   "author": "Alex Lee <alexylee15@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gsap": "^3.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
