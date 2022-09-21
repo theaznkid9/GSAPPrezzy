@@ -112,10 +112,10 @@ const Website = () => {
           <Search placeholder={'Seach Something...'} ref={obj2Ref}></Search>
         </InnerContainer>
         <InnerContainer2>
-          <Element ref={obj3Ref}>Some Content Here</Element>
-          <Element ref={obj4Ref}>More Content Here</Element>
-          <Element ref={obj5Ref}>Additional Content</Element>
-          <Element ref={obj6Ref}>Final Content Here</Element>
+          <Element ref={obj3Ref}>Hack Reactor -> React Hacking</Element>
+          <Element ref={obj4Ref}>RFCE Peeps Are SPECTACULAR</Element>
+          <Element ref={obj5Ref}>SDC ? More like EZPZ</Element>
+          <Element ref={obj6Ref}>Can I Get a Thumbs Check?</Element>
         </InnerContainer2>
       </Container>
     </div>

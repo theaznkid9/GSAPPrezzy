@@ -7,7 +7,7 @@ import Goku from './Goku.jsx';
 import SlideButton from './SlideButton.jsx';
 import Antman from './Antman.jsx';
 import Welcome from './Welcome.jsx';
-import Website from './Glow.jsx';
+import Website from './Website.jsx';
 const root = createRoot(document.getElementById("root"));
 
 const Container = styled.div`
