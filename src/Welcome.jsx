@@ -11,20 +11,13 @@ const Subtitle = styled.h1`
   font-size: 45px;
 `
 
+
 const Welcome = () => {
   const obj1Ref = useRef();
-  const tl = useRef();
-  const [objClicked, setObjClicked] = useState(false);
 
   useEffect(() => {
     gsap.to([obj1Ref.current], {x: "500px", duration: 4})
   }, []);
-
-
-
-  const handleClick = (e) => {
-    setObjClicked(!objClicked);
-  }
 
   return (
     <Div>
