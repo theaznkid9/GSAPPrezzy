@@ -15,10 +15,7 @@ const Goku = () => {
     tl.current = gsap.timeline({
       paused: true
     })
-    tl.current.to([obj1Ref.current], {x: "1000px", duration: 0.2})
-    tl.current.to(obj1Ref.current, {x: "0", duration: 0.2})
-    tl.current.to([obj1Ref.current], {x: "1000px", duration: 0.2})
-    tl.current.to(obj1Ref.current, {x: "0", duration: 0.2})
+    tl.current.staggerTo([obj1Ref.current], 3.5 - (0.1 * 4), {rotation:15, ease:77}, 0.1);
   }, []);
 
   useEffect(() => {
